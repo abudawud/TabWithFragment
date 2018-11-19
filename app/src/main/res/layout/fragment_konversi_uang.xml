@@ -1,0 +1,110 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="project.envoss.com.calculatorbalok.uts.fragment.KonversiUangFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_margin="@dimen/register_margin"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Konversi Mata Uang Asing ke Lokal"/>
+
+        <EditText
+            android:id="@+id/foreign"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nilai (Asing)"/>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pilih Mata Uang:"/>
+
+        <RadioGroup
+            android:id="@+id/kurs_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/kusd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@+id/keur"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <RadioButton
+                android:id="@+id/kgbp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@+id/kinr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@+id/kaud"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nilai Kurs:"/>
+
+        <TextView
+            android:background="#ccc"
+            android:id="@+id/kurs_val"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="14.900"
+            android:textStyle="bold|italic"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:padding="5dp"
+            android:gravity="center_horizontal"
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hasil Konversi:"/>
+
+        <TextView
+            android:background="@color/colorPrimary"
+            android:id="@+id/val_res"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="14.900"
+            android:textStyle="bold|italic"
+            android:textSize="30sp"
+            android:textColor="#FFF"
+            android:padding="20dp"
+            android:gravity="center_horizontal"
+            />
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,42 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="project.envoss.com.calculatorbalok.uts.fragment.KonversiNtTFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="@dimen/register_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text_num"
+            android:padding="5dp"
+            android:textStyle="italic|bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#bbb"
+            android:textColor="#000"
+            android:text="Dua ratus empat puluh ribu"/>
+
+        <EditText
+            android:id="@+id/num_value"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:hint="Jumlah Uang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/convert"
+            android:text="KONVERSIKAN"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            android:background="@color/colorPrimary"
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</FrameLayout>

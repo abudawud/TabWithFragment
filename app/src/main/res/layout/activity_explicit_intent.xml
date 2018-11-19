@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context="project.envoss.com.calculatorbalok.ExplicitIntentActivity">
+
+    <Button
+        android:id="@+id/dial_phone"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dial Phone"
+        android:onClick="dialPhone"/>
+
+    <Button
+        android:id="@+id/maps"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open MAP"
+        android:onClick="openMap"/>
+
+    <Button
+        android:id="@+id/sms"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send SMS"
+        android:onClick="sendSMS"/>
+
+    <Button
+        android:id="@+id/share"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share Me"
+        android:onClick="shareMe"/>
+
+
+</LinearLayout>

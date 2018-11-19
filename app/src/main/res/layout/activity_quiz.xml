@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="project.envoss.com.calculatorbalok.quiz.QuizActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Berikut merupakan contoh distro-distro Ubuntu kecuali:"/>
+
+            <RadioGroup
+                android:id="@+id/distros"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:text="Trusty Thar"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:text="Xenial Xerrus"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:id="@+id/distro_a"
+                    android:layout_width="match_parent"
+                    android:text="Debian Jessie"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:text="Raring Ringtail"
+                    android:layout_height="wrap_content" />
+            </RadioGroup>
+
+            <TextView
+                android:paddingTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Linux adalah sebuah sistem operasi:"/>
+
+            <RadioGroup
+                android:id="@+id/linux"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:text="Benar"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:id="@+id/linux_a"
+                    android:layout_width="match_parent"
+                    android:text="Salah"
+                    android:layout_height="wrap_content" />
+            </RadioGroup>
+
+            <TextView
+                android:paddingTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Untuk menambah user di OS GNU/Linux dapat menggunakan perintah berikut, kecuali:"/>
+
+            <RadioGroup
+                android:id="@+id/user"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/user_a"
+                    android:layout_width="match_parent"
+                    android:text="createuser"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:text="adduser"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:text="useradd"
+                    android:layout_height="wrap_content" />
+            </RadioGroup>
+
+            <TextView
+                android:paddingTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. iptables merupakan utility di OS GNU/Linux yang digunakan untuk:"/>
+
+            <RadioGroup
+                android:id="@+id/iptables"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/iptables_a"
+                    android:layout_width="match_parent"
+                    android:text="Mengatur Firewall"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:text="Konfigurasi IP pada kartu jaringan"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:text="Managemen IP Address"
+                    android:layout_height="wrap_content" />
+            </RadioGroup>
+
+            <TextView
+                android:paddingTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Berikut merupakan Desktop Environment (DE) pada OS GNU/Linux, kecuali:"/>
+
+            <RadioGroup
+                android:id="@+id/de"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:text="GNOME"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:text="Unity"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:text="XFCE"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:id="@+id/de_a"
+                    android:layout_width="match_parent"
+                    android:text="XDM"
+                    android:layout_height="wrap_content" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/submmit"
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SUBMIT"/>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

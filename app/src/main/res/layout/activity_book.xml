@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="project.envoss.com.calculatorbalok.BookActivity">
+
+    <TextView
+        android:id="@+id/book_1"
+        android:layout_margin="5dp"
+        android:background="#AAA"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:maxLines="2"
+        android:textColor="#000"
+        android:textStyle="bold|italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book 1"/>
+
+    <TextView
+        android:id="@+id/book_2"
+        android:layout_margin="5dp"
+        android:background="#AAA"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:maxLines="2"
+        android:textColor="#000"
+        android:textStyle="bold|italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book 1"/>
+
+    <TextView
+        android:id="@+id/book_3"
+        android:layout_margin="5dp"
+        android:background="#AAA"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:maxLines="2"
+        android:textColor="#000"
+        android:textStyle="bold|italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book 1"/>
+
+    <TextView
+        android:id="@+id/book_4"
+        android:layout_margin="5dp"
+        android:background="#AAA"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:maxLines="2"
+        android:textColor="#000"
+        android:textStyle="bold|italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book 1"/>
+
+    <TextView
+        android:id="@+id/book_5"
+        android:layout_margin="5dp"
+        android:background="#AAA"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:maxLines="2"
+        android:textColor="#000"
+        android:textStyle="bold|italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book 1"/>
+
+</LinearLayout>

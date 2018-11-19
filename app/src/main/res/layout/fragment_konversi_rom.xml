@@ -1,0 +1,42 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="@dimen/register_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/text_num"
+            android:padding="20dp"
+            android:textSize="50sp"
+            android:textStyle="italic|bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#aaa"
+            android:textColor="#000"
+            android:text="0"/>
+
+        <EditText
+            android:id="@+id/rom_value"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:hint="Angka Romawi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/convert"
+            android:text="KONVERSIKAN"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            android:background="@color/colorPrimary"
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</FrameLayout>
